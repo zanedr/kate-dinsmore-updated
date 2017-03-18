@@ -71,6 +71,11 @@ p {
   font-weight: 200;
 }
 
+#rage {
+  margin: 50px auto;
+  font-weight: 400;
+}
+
 h3 {
   font-weight: 200;
   text-align: center;
@@ -103,8 +108,22 @@ h3 {
     }
 
     #about {
+      line-height: 36px;
       margin: 0 auto;
       width: 75%;
+    }
+
+    h3 {
+      font-size: 36px;
+      margin: 15px auto;
+    }
+
+    #members {
+      margin-bottom: 50px;
+    }
+
+    p {
+      font-size: 24px;
     }
 
     #contact{
