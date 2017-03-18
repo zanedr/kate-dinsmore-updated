@@ -67,6 +67,7 @@ br {
 
 p {
   text-align: center;
+  font-size: 16px;
   margin: 10px;
   font-weight: 200;
 }
@@ -86,11 +87,14 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+#contact-blurb {
   padding-bottom: 100px;
 }
 
 .social-icon {
-  margin: 20px;
+  margin: 0 20px;
   height: 100px;
   width: 100px;
 }
@@ -114,7 +118,8 @@ h3 {
     }
 
     h3 {
-      font-size: 36px;
+      font-size: 30px;
+      font-weight: 400;
       margin: 15px auto;
     }
 
@@ -124,6 +129,10 @@ h3 {
 
     p {
       font-size: 24px;
+    }
+
+    #rage {
+      font-size: 30px;
     }
 
     #contact{
