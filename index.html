@@ -2,51 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
-    <title>Montu</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
   </head>
   <body>
-    <section id="page-wrapper">
-      <div id="spacer"></div>
-      <img src="images/montushirt3.png" id="logo">
-      <!-- <h1 id="montu">MONTU</h1> -->
-      <div id="buttons">
-        <a class="button" id="shows-button" href="#schedule">SHOWS</a>
-        <a class="button" id="about-button" href="#about">ABOUT</a>
+    <section class="parallax-scrolling" id="header">
+      <!-- <h1 id="main-title">MONTU</h1> -->
+      <img id="montu-logo" src="images/MONTUshirt.png">
+      <div id="main-menu">
+        <!-- <div class="main-menu-buttons" id="main-menu-music"> -->
+          <a class="menu-links" id="main-menu-music" href="#music">music</a>
+        <!-- </div> -->
+        <!-- <div class="main-menu-buttons" id="main-menu-tour"> -->
+          <a class="menu-links" id="main-menu-tour" href="#tour">tour</a>
+        <!-- </div> -->
+        <!-- <div class="main-menu-buttons" id="main-menu-contact"> -->
+          <a class="menu-links" id="main-menu-contact" href="#contact">contact</a>
+        <!-- </div> -->
+        <!-- <div class="main-menu-buttons" id="main-menu-bio"> -->
+          <a class="menu-links" id="main-menu-bio" href="#bio">bio</a>
+        <!-- </div> -->
       </div>
-      <div id="buttons">
-        <a class="button" id="contact-button" href="#contact/social">CONTACT</a>
-        <a class="button" id="tunes-button" href="https://montu.bandcamp.com/">TUNES</a>
-      </div>
-      <section id="schedule">
-        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="montu" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#2F95DE" data-popup-background-color="rgba(0,0,0,0)" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
-      </section>
-      <br>
-      <section id="about">
-        <!-- <h2>Montu is:</h2> -->
-        <div id="members">
-          <h3>John Barkley - Keyboards</h3>
-          <h3>Nate Levy - Drums</h3>
-          <h3>Seth Myers - Bass</h3>
-          <h3>Zane Russell - Guitar</h3>
-        </div>
-        <p>Based out of Norman, Oklahoma, MONTU is an electronic jam band that blends a multitude of influences into an unforgettable live experience full of high energy and good times. MONTU has taken their signature sound across the country, from New York to L.A., to festivals, clubs and bars making impressions and leaving good vibes in their wake. The skill and freedom in the music brings elements of funk, jazz, rock, and R&B all mixed together into a seamless whirlwind of sound and lights that won't leave you standing still.</p>
-        <p id="rage">Let's rage.</p>
-        <p>Toured with/Opened for:  Umphrey's McGee, The Disco Biscuits, Lotus, EOTO, Papadosio, Girl Talk, The Floozies, and many more. </p>
-      </section>
-      <section id="contact/social">
-        <div id="contact">
-          <a href="mailto: montumusic@gmail.com"><img class="social-icon" src="images/mail.svg"></a>
-          <a href="https://twitter.com/montumusic"><img class="social-icon" src="images/twitter.svg"></a>
-          <a href="https://www.facebook.com/montuband/"><img class="social-icon" src="images/facebook.svg"></a>
-        </div>
-        <p id="contact-blurb">For booking inquiries, comments, suggestions, or recipes, email is probably the way to go.</p>
-      </section>
-      <!-- <section id="music">
-      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=227234823/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://montu.bandcamp.com/track/56">56 by MONTU</a></iframe>
-    </section> -->
     </section>
+    <section class="parallax-scrolling" id="tour">
+      <section id="tour-date-container">
+        <script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Montu" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#31465C" data-popup-background-color="rgba(0,0,0,0)" data-background-color="rgba(0,0,0,0)" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
+      </section>
+    </section>
+    <section class="parallax-scrolling" id="bio">
+      <p class="bio-text">Based out of Norman, Oklahoma, MONTU is an electronic jam band that blends a multitude of influences into an unforgettable live experience full of high energy and good times. MONTU has taken their signature sound across the country, from New York to L.A., to festivals, clubs and bars making impressions and leaving good vibes in their wake. Consisting entirely of organic playing with no prerecording or sequencing, the skill and freedom in the music brings elements of funk, jazz, rock, and R&B all mixed together into a seamless whirlwind of sound and lights that won't leave you standing still.</p>
+      <p class="bio-text" id="lets-rage">Let's rage.</p>
+    </section>
+    <section class="parallax-scrolling" id="music">
+      <div id="music-spacer"></div>
+      <section id="music-container">
+        <iframe style="border: 0; width: 300px; height: 379px;" src="https://bandcamp.com/EmbeddedPlayer/track=227234823/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/transparent=true/" seamless><a href="http://montu.bandcamp.com/track/56">56 by MONTU</a></iframe>
+      </section>
+      <p class="music-text"><a class="music-links" href="https://montu.bandcamp.com/">More music available at Bandcamp</a></p>
+    </section>
+    <section class="parallax-scrolling" id="contact">
+      <h2 id="contact-title">CONTACT</h2>
+      <p class="contact-text">For booking inquiries, comments, suggestions, and
+        recipes, contact <a class="contact-links" href="mailto:montumusic@gmail.com">montumusic@gmail.com</a>.</p>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>

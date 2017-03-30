@@ -1,148 +1,171 @@
-html, body {
+html,
+body {
   margin: 0;
 }
 
 body {
-  background-color: #333333;
-  color: #FFFFFF;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
 }
 
-#page-wrapper {
-  max-width: 1300px;
-  margin: 0 auto;
+#header {
+  height: 100vh;
 }
 
-#spacer {
-  height: 73vh;
-}
-
-#logo {
-  width: 320px;
-  left: 50%;
-  margin-left: -160px;
-  position: absolute;
-  top: 15%;
-}
-
-#buttons {
-  display: flex;
-  margin-bottom: 1vh;
-  justify-content: space-between;
-}
-
-.button {
-  align-items: center;
-  background-color: transparent;
-  border: 1px #FFFFFF solid;
-  display: flex;
-  color: #FFFFFF;
-  font-weight: 200;
-  font-size: 24px;
-  height: 12vh;
-  margin: 0 5px;
-  justify-content: center;
+#main-title {
+  font-size: 48px;
+  margin: 15vh auto 10vh;
   text-align: center;
-  text-decoration: none;
-  width: 50%;
 }
 
-.button:hover {
-  background-color: #444444;
+#montu-logo {
+  position: absolute;
+  top: 20vh;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
 }
 
-br {
+#main-menu {
+  /*border-radius: 200px;*/
+  /*margin-left: -155px;*/
+  background: #83929F;
+  height: 75px;
+  display: flex;
+  margin: 0 auto;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  /*left: 5%;*/
+  transition-duration: .5s;
+}
+
+.menu-links {
   color: #FFFFFF;
+  padding: 30px 7.5%;
+  text-decoration: none;
 }
 
-#schedule {
+.menu-links:hover {
+  color: #444444;
+  transition-duration: 0.25s;
+}
+
+#tour {
+  background-image: url("images/crowdgood.jpg");
+  height: 800px;
+  margin: 0;
+}
+
+#tour-date-container {
+  margin: 0 5% 100px;
+}
+
+#bio {
+    background-image: url("images/barkleyzanekiel.jpg");
+    height: 800px;
+    margin: 0;
+}
+
+.bio-text {
+  color: #FFFFFF;
+  line-height: 1.75;
+  margin: 0 5%;
+  padding: 100px 5% 0;
+  text-align: center;
+}
+
+#lets-rage {
+  font-size: 20px;
+  margin: 0 auto 100px;
   padding-top: 100px;
 }
 
-#about {
-  padding: 100px 0;
-  margin: 0 10px;
-}
-
-p {
+#music {
+  background-image: url("images/easterisland.jpg");
+  height: 800px;
+  margin: 0;
   text-align: center;
-  font-size: 16px;
-  margin: 10px;
-  font-weight: 200;
 }
 
-#rage {
-  margin: 50px auto;
-  font-weight: 400;
+#music-spacer {
+  height: 200px;
 }
 
-h3 {
-  font-weight: 200;
-  text-align: center;
-  margin: 5px auto;
+#music-container {
+  padding: 200px auto;
+}
+
+.music-links {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-decoration: none;
 }
 
 #contact {
-  display: flex;
-  flex-direction: column;
+  margin: 50px 5% 150px;
   text-align: center;
 }
 
-#contact-blurb {
-  padding-bottom: 100px;
+.contact-text {
+  line-height: 1.7;
 }
 
-.social-icon {
-  margin: 0 20px;
-  height: 100px;
-  width: 100px;
+.contact-links {
+  color: #333333;
+  text-decoration: none;
 }
 
-@media screen and (min-width: 600px) {
-    #logo {
-      top: 0;
-      margin-left: -320px;
-      width: 640px;
-    }
+.parallax-scrolling {
+  margin: 0;
+  /*height: 800px;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    #schedule {
-      margin: 100px auto 0px;
-      width: 75%;
-    }
-
-    #about {
-      line-height: 36px;
+@media screen and (min-width: 500px) {
+    #main-menu {
+      border-radius: 200px;
+      background: #83929F;
+      height: 75px;
+      display: flex;
       margin: 0 auto;
-      width: 75%;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      left: 5%;
+      transition-duration: .5s;
     }
 
-    h3 {
-      font-size: 30px;
-      font-weight: 400;
-      margin: 15px auto;
+    #montu-logo {
+      position: absolute;
+      top: 20vh;
+      left: 50%;
+      margin-left: -200px;
+      width: 400px;
     }
 
-    #members {
-      margin-bottom: 50px;
+    @keyframes menu-background {
+      0% {background-color: #A3ADB8};
+      30% {background-color: #83929F};
+      60% {background-color: #4E6172};
+      90% {background-color: #A3ADB8};
     }
 
-    p {
-      font-size: 24px;
-    }
+}
 
-    #rage {
-      font-size: 30px;
-    }
-
-    #contact{
-      flex-direction: row;
-      justify-content: center;
-    }
-
-    .social-icon {
-      margin: 30px;
-      height: 50px;
-      width: 50px;
-    }
+@media screen and (min-width: 1000px) {
+  .menu-links {
+    padding: 30px 10%;
   }
+
+  .bio-text{
+    margin: 0 15%;
+    font-size: 20px;
+  }
+
+  #lets-rage {
+    font-size: 24px;
+  }
+}
