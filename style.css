@@ -19,7 +19,7 @@ body {
 
 #montu-logo {
   position: absolute;
-  top: 20vh;
+  top: 25vh;
   left: 50%;
   margin-left: -150px;
   width: 300px;
@@ -139,7 +139,6 @@ body {
     }
 
     #montu-logo {
-      position: absolute;
       top: 20vh;
       left: 50%;
       margin-left: -200px;
