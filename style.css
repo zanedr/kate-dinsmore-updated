@@ -28,8 +28,9 @@ body {
 #main-menu {
   /*border-radius: 200px;*/
   /*margin-left: -155px;*/
-  background: #83929F;
-  height: 75px;
+  background: #0c0c0c;
+  height: 50px;
+  justify-content: center;
   display: flex;
   margin: 0 auto;
   position: fixed;
@@ -41,12 +42,12 @@ body {
 
 .menu-links {
   color: #FFFFFF;
-  padding: 30px 7.5%;
+  padding: 15px 7.5%;
   text-decoration: none;
 }
 
 .menu-links:hover {
-  color: #444444;
+  color: #AAAAAA;
   transition-duration: 0.25s;
 }
 
@@ -68,6 +69,8 @@ body {
 
 .bio-text {
   color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
   line-height: 1.75;
   margin: 0 5%;
   padding: 100px 5% 0;
@@ -78,6 +81,8 @@ body {
   font-size: 20px;
   margin: 0 auto 100px;
   padding-top: 100px;
+  position: absolute;
+  bottom: 20px;
 }
 
 #music {
@@ -117,7 +122,6 @@ body {
 
 .parallax-scrolling {
   margin: 0;
-  /*height: 800px;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,16 +130,15 @@ body {
 
 @media screen and (min-width: 500px) {
     #main-menu {
-      border-radius: 200px;
-      background: #83929F;
-      height: 75px;
+      /*border-radius: 200px;*/
+      /*background: rgba(131, 146, 159, 0.9);*/
+      height: 50px;
       display: flex;
       margin: 0 auto;
       position: fixed;
       top: 0px;
       width: 100%;
-      left: 5%;
-      transition-duration: .5s;
+      /*left: 5%;*/
     }
 
     #montu-logo {
@@ -154,10 +157,21 @@ body {
 
 }
 
-@media screen and (min-width: 1000px) {
-  .menu-links {
-    padding: 30px 10%;
+@media screen and (min-width: 800px) {
+  #montu-logo {
+    margin-left: -300px;
+    width: 600px;
   }
+  
+  .menu-links {
+    padding: 15px 3.5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  /*.menu-links {
+    padding: 15px 3.5%;
+  }*/
 
   .bio-text{
     margin: 0 15%;
@@ -166,5 +180,6 @@ body {
 
   #lets-rage {
     font-size: 24px;
+    position: static;
   }
 }
