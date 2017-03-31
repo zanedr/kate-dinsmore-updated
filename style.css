@@ -4,12 +4,47 @@ body {
 }
 
 body {
+  background-color: #000000;
   font-family: 'Raleway', sans-serif;
 }
 
 #header {
+  background-color: #0c0c0c;
   height: 100vh;
+  z-index: -5
 }
+
+h2 {
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0c0c0c;
+  font-weight: 200;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/*.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+}*/
 
 #main-title {
   font-size: 48px;
@@ -79,10 +114,10 @@ body {
 
 #lets-rage {
   font-size: 20px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   padding-top: 100px;
-  position: absolute;
-  bottom: 20px;
+  /*position: absolute;*/
+  /*bottom: 20px;*/
 }
 
 #music {
@@ -93,7 +128,7 @@ body {
 }
 
 #music-spacer {
-  height: 200px;
+  height: 100px;
 }
 
 #music-container {
@@ -102,20 +137,32 @@ body {
 
 .music-links {
   color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 26px;
   text-decoration: none;
 }
 
 #contact {
-  margin: 50px 5% 150px;
+  background-color: #FFFFFF;
+  padding: 100px 0 100px;
   text-align: center;
+  width: 100%;
+}
+
+#contact-title {
+  color: #000000;
+  background-color: #FFFFFF;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 .contact-text {
+  font-weight: 400;
   line-height: 1.7;
 }
 
 .contact-links {
+  font-weight: 400;
   color: #333333;
   text-decoration: none;
 }
@@ -126,6 +173,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#social-icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 30px 20px;
+  width: 75px;
 }
 
 @media screen and (min-width: 500px) {
@@ -162,16 +219,10 @@ body {
     margin-left: -300px;
     width: 600px;
   }
-  
+
   .menu-links {
     padding: 15px 3.5%;
   }
-}
-
-@media screen and (min-width: 1000px) {
-  /*.menu-links {
-    padding: 15px 3.5%;
-  }*/
 
   .bio-text{
     margin: 0 15%;
@@ -183,3 +234,9 @@ body {
     position: static;
   }
 }
+}
+
+@media screen and (min-width: 1000px) {
+  /*.menu-links {
+    padding: 15px 3.5%;
+  }*/
