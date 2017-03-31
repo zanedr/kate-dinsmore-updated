@@ -137,13 +137,25 @@ h2 {
 }
 
 #music-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 200px auto;
+}
+
+.hidden-tunes, .hidden-tunes-2, .hidden-tunes-3 {
+  display: none;
+}
+
+.music-text {
+  margin-top: 60px;
 }
 
 .music-links {
   color: #FFFFFF;
   font-family: 'Titillium Web', sans-serif;
   font-size: 26px;
+  margin-top: 20px;
   text-decoration: none;
 }
 
@@ -192,15 +204,12 @@ h2 {
 
 @media screen and (min-width: 500px) {
     #main-menu {
-      /*border-radius: 200px;*/
-      /*background: rgba(131, 146, 159, 0.9);*/
       height: 50px;
       display: flex;
       margin: 0 auto;
       position: fixed;
       top: 0px;
       width: 100%;
-      /*left: 5%;*/
     }
 
     #montu-logo {
@@ -210,12 +219,16 @@ h2 {
       width: 400px;
     }
 
-    @keyframes menu-background {
+    .music-text {
+      margin-top: 20px;
+    }
+
+    /*@keyframes menu-background {
       0% {background-color: #A3ADB8};
       30% {background-color: #83929F};
       60% {background-color: #4E6172};
       90% {background-color: #A3ADB8};
-    }
+    }*/
 
 }
 
@@ -239,10 +252,20 @@ h2 {
     padding-top: 100px;
     position: static;
   }
-}
+
+  .hidden-tunes {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 1000px) {
-  /*.menu-links {
-    padding: 15px 3.5%;
-  }*/
+  .hidden-tunes-2 {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .hidden-tunes-3 {
+    display: inline-block;
+  }
+}
