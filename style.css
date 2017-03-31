@@ -14,20 +14,6 @@ body {
   z-index: -5
 }
 
-h2 {
-  color: #FFFFFF;
-  margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #0c0c0c;
-  font-weight: 200;
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
-}
-
-
-
 /*.fullscreen-bg {
     position: fixed;
     top: 0;
@@ -77,13 +63,25 @@ h2 {
 
 .menu-links {
   color: #FFFFFF;
-  padding: 15px 7.5%;
+  padding: 15px 5%;
   text-decoration: none;
 }
 
 .menu-links:hover {
   color: #AAAAAA;
   transition-duration: 0.25s;
+}
+
+h2 {
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #0c0c0c;
+  font-weight: 200;
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
 }
 
 #tour {
