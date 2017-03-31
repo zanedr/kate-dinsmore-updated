@@ -115,10 +115,15 @@ h2 {
 #lets-rage {
   font-size: 20px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 60px;
   /*position: absolute;*/
   /*bottom: 20px;*/
 }
+
+/*#music-title {
+  color: #0c0c0c;
+  background-color: #FFFFFF;
+}*/
 
 #music {
   background-image: url("images/easterisland.jpg");
@@ -150,7 +155,7 @@ h2 {
 }
 
 #contact-title {
-  color: #000000;
+  color: #0c0c0c;
   background-color: #FFFFFF;
   padding-top: 0;
   padding-bottom: 20px;
@@ -231,6 +236,7 @@ h2 {
 
   #lets-rage {
     font-size: 24px;
+    padding-top: 100px;
     position: static;
   }
 }
