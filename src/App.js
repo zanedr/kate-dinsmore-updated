@@ -44,7 +44,7 @@ class App extends Component {
         <h2 id="bio-title">Bio</h2>
         <p className="bio-text">Based out of Seattle, Washington, Kate Dinsmore delivers a scorching
                             combination of thrash metal and acapella roots jazz blended with the sublime
-                            musical sensibilites of early 1920's New Orlearns zydeco.  Versed
+                            musical sensibilites of early 1920's New Orleans zydeco.  Versed
                             on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
                             show is a painstaking endeavor of the heart, a fact that shines through the
                             music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
