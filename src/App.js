@@ -46,7 +46,7 @@ class App extends Component {
                             combination of thrash metal and acapella roots jazz blended with the sublime
                             musical sensibilites of early 1920's New Orleans zydeco.  Versed
                             on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
-                            show is a painstaking endeavor of the heart, a fact that shines through the
+                            show a painstaking endeavor of the heart, a fact that shines through the
                             music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
                             and a new concept album inspired by the Shawshank Redemption and its sequel,
                             Bad Boys II, 2018 is looking to be a big year for Kate. Check the tour page 
