@@ -97,7 +97,7 @@ h2 {
 }
 
 #tour {
-  background-image: url("images/kielflask.jpg");
+  background-image: url("images/kieldrum.jpg");
   height: 850px;
   margin: 0;
 }
@@ -107,7 +107,7 @@ h2 {
 }
 
 #bio {
-    background-image: url("images/kieldrum.jpg");
+    background-image: url("images/katekatekate.jpg");
     height: 850px;
     margin: 0 auto;
 }
@@ -129,7 +129,7 @@ h2 {
   font-weight: 200;
   line-height: 1.75;
   margin: 0 auto;
-  padding-top: 60px;
+  padding: 120px 5% 0;;
   text-align: center;
   /*position: absolute;*/
   /*bottom: 20px;*/
@@ -141,7 +141,7 @@ h2 {
 }*/
 
 #music {
-  background-image: url("images/katekatekate.jpg");
+  background-image: url("images/kielflask.jpg");
   height: 850px;
   margin: 0;
   text-align: center;

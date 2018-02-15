@@ -45,8 +45,8 @@ class App extends Component {
         <p className="bio-text">Based out of Seattle, Washington, Kate Dinsmore delivers a scorching
                             combination of thrash metal and acapella roots jazz blended with the sublime
                             musical sensibilites of early 1920's New Orlearns zydeco.  Versed
-                            on multiple instruments including guitar, jawharp, and Chevy Malibu, every
-                            show is a painstaking endeavor of the heart, a fact which shows through the
+                            on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
+                            show is a painstaking endeavor of the heart, a fact which shines through the
                             music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
                             and a new concept album inspired by the Shawshank Redemption and its sequel,
                             Bad Boys II, 2018 is looking to be a big year for Kate. Check the tour page 
