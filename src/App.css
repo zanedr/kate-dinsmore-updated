@@ -61,6 +61,7 @@ body {
   top: 0px;
   transition-duration: .5s;
   width: 100%;
+  z-index: 10;
 }
 
 .menu-links {
@@ -347,3 +348,9 @@ h2 {
     display: inline-block;
   }
 } */
+
+@media screen and (max-width: 600px) { 
+  .main-title {
+    top: 20vh;
+  }
+}
