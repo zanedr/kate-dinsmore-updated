@@ -42,7 +42,7 @@ class App extends Component {
 
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
-        <p className="bio-text">Based out of Seattle, Washington, Kate Dinsmore delivers a scorching
+        <p className="bio-text">Mentally projecting from Seattle, Washington, Kate Dinsmore delivers a scorching
                             combination of thrash metal and acapella roots jazz blended with the sublime
                             musical sensibilites of early 1920's New Orleans zydeco.  Versed
                             on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
