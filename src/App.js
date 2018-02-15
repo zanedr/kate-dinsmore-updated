@@ -48,7 +48,7 @@ class App extends Component {
                             on multiple instruments including guitar, jawharp, and Chevy Malibu, every
                             show is a painstaking endeavor of the heart, a fact which shows through the
                             music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
-                            and a new concept album inspired by Bad Boys II and its sequel, the Shawshank
+                            and a new concept album inspired by Boyz II Men and the Shawshank
                             Redemption, 2018 is looking to be a big year for Kate. Check the tour page 
                             for dates in your area, and don't miss the only
                             artist who can shatter your pelvis with only her voice and two shots of
