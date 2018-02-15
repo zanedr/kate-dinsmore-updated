@@ -12,21 +12,43 @@ body {
 #header {
   background-color: #0c0c0c;
   height: 100vh;
-  z-index: -5
+  z-index: -5;
+  border-bottom: 1px white solid;
 }
 
-#main-title {
+/* #main-title {
   font-size: 48px;
   margin: 15vh auto 10vh;
   text-align: center;
-}
+} */
 
-.montu-logo {
+/* .montu-logo {
   position: absolute;
   top: 25vh;
   left: 50%;
   margin-left: -150px;
   width: 300px;
+} */
+
+/* .main-title-container {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+} */
+
+.main-title {
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  font-size: 36px;
+  font-weight: 200;
+  color: white;
+}
+
+.photo {
+  position: absolute;
+  right: 30%;
+  bottom: 0;
 }
 
 #main-menu {
@@ -69,38 +91,21 @@ h2 {
   font-size: 36px;
   text-align: center;
   width: 100%;
+  /* border-top: 1px white solid; */
 }
 
 #tour {
-  background-image: url("images/crowdgood.jpg");
+  background-image: url("images/kielflask.jpg");
   height: 850px;
   margin: 0;
 }
-
-/*.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -10;
-}
-
-.fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}*/
 
 #tour-date-container {
   margin: 0 5% 100px;
 }
 
 #bio {
-    background-image: url("images/barkleyzanekiel.jpg");
+    background-image: url("images/kieldrum.jpg");
     height: 850px;
     margin: 0 auto;
 }
@@ -134,7 +139,7 @@ h2 {
 }*/
 
 #music {
-  background-image: url("images/easterisland.jpg");
+  background-image: url("images/katekatekate.jpg");
   height: 850px;
   margin: 0;
   text-align: center;
@@ -301,7 +306,7 @@ h2 {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .hidden-tunes-2 {
     display: inline-block;
   }
@@ -341,4 +346,4 @@ h2 {
   .hidden-tunes-3 {
     display: inline-block;
   }
-}
+} */
