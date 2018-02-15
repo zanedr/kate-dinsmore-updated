@@ -51,9 +51,9 @@ class App extends Component {
                             and a new concept album inspired by Bad Boys II and its sequel, the Shawshank
                             Redemption, 2018 is looking to be a big year for Kate. Check the tour page 
                             for dates in your area, and don't miss the only
-                            artist who can shatter your pelvis with only her voice and a bottle of
+                            artist who can shatter your pelvis with only her voice and two shots of
                             Jameson.</p>
-        <p id="lets-rage">It's jazz, bitch.</p>
+        <p id="lets-rage">It's jazz.</p>
       </section>
 
       <section className="parallax-scrolling" id="music">
