@@ -403,9 +403,13 @@ h2 {
 }
 
 @media screen and (max-width: 1300px) {
+  .photo {
+    padding-top: 30px;
+  }
+
   .main-title {
     bottom: 20vh;
-    left: 60vw;
+    left: 50vw;
     color: #efefef;
   }
 }

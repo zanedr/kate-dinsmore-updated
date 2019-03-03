@@ -22,7 +22,7 @@ class App extends Component {
             </a>
           </div>
           <div id="main-menu">
-            <a className="menu-links" id="main-menu-tour" href="#tour">tour</a>
+            {/*<a className="menu-links" id="main-menu-tour" href="#tour">tour</a>*/}
             <a className="menu-links" id="main-menu-music" href="#music">music</a>
             <a className="menu-links" id="main-menu-bio" href="#bio">bio</a>
             <a className="menu-links" id="main-menu-contact" href="#contact">contact</a>
