@@ -2,7 +2,7 @@
   "name": "kate-dinsmore",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zanedr.github.io/kate-dinsmore/",
+  "homepage": "https://zanedr.github.io/kate-dinsmore-updated/",
   "dependencies": {
     "animejs": "^3.0.1",
     "d3": "^4.12.0",
