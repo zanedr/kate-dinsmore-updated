@@ -26,7 +26,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-516">
+                <state relative-caret-position="475">
                   <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
@@ -42,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="180" column="46" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
+                <state relative-caret-position="289">
+                  <caret line="395" column="3" lean-forward="true" selection-start-line="395" selection-start-column="3" selection-end-line="395" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -60,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>white</find>
+      <find>z-in</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +112,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551651246814" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551651642193" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -139,12 +140,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550706355378</updated>
       <workItem from="1550706356705" duration="145000" />
-      <workItem from="1551642966125" duration="6302000" />
+      <workItem from="1551642966125" duration="6670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6447000" />
+    <option name="totallyTimeSpent" value="6815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -215,7 +216,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
+        <state relative-caret-position="475">
           <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -225,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="180" column="46" selection-start-line="180" selection-start-column="46" selection-end-line="180" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="395" column="3" lean-forward="true" selection-start-line="395" selection-start-column="3" selection-end-line="395" selection-end-column="3" />
         </state>
       </provider>
     </entry>
