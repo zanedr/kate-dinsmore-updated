@@ -177,11 +177,14 @@ h2 {
 
 .music-text {
   margin-top: 60px;
+  width: 100vw;
+  background-color: rgba(244, 240, 240, 0.51);
 }
 
 .music-links {
-  color: #efefef;
+  color: #0c0c0c;
   font-family: 'Titillium Web', sans-serif;
+  width: 100vw;
   font-size: 26px;
   margin-top: 20px;
   text-decoration: none;
