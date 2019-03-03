@@ -399,15 +399,17 @@ h2 {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .menu-links {
-    font-size: 13px;
-  }
-
+@media screen and (max-width: 800px) {
   .social-icon-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu-links {
+    font-size: 13px;
   }
 
   .social-icon {
