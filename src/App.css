@@ -227,8 +227,14 @@ h2 {
 #social-icon-container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   margin: 0 auto;
   width: 320px;
+}
+
+.social-icon-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .social-icon {
