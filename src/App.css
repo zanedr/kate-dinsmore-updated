@@ -378,6 +378,27 @@ h2 {
   /*}*/
 /*}*/
 
+
+@media screen and (max-width: 1300px) {
+  .photo {
+    padding-top: 30px;
+  }
+
+  .main-title {
+    bottom: 20vh;
+    left: 50vw;
+    /*color: #efefef;*/
+  }
+
+  #bio {
+    height: 1000px;
+  }
+
+  .bio-text {
+    padding-top: 10px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .menu-links {
     font-size: 13px;
@@ -391,26 +412,6 @@ h2 {
 
   .social-icon {
     height: 40px;
-  }
-
-  #bio {
-    height: 1000px;
-  }
-
-  .bio-text {
-    padding-top: 30px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .photo {
-    padding-top: 30px;
-  }
-
-  .main-title {
-    bottom: 20vh;
-    left: 50vw;
-    color: #efefef;
   }
 }
 
