@@ -12,13 +12,13 @@ class App extends Component {
           {/* <img className="montu-logo" src={require("./images/MONTUcolortransparent.png")}/> */}
           <div id="main-menu-social">
             <a className="main-social-links" href="https://www.facebook.com/katedinsmoremusic/">
-              <img className="menu-social-icon" src={require("./images/facebookwhite.svg")}/>
+              <img alt={"facebook icon"} className="menu-social-icon" src={require("./images/facebook.svg")}/>
             </a>
             <a className="main-social-links" href="https://twitter.com/horseysurprise">
-              <img className="menu-social-icon" src={require("./images/twitterwhite.svg")}/>
+              <img alt={"twitter icon"} className="menu-social-icon" src={require("./images/twitter.svg")}/>
             </a>
             <a className="main-social-links" href="https://www.instagram.com/katedinsmoremusic/">
-              <img className="menu-social-icon" src={require("./images/instagramwhite.svg")}/>
+              <img alt={"instagram icon"} className="menu-social-icon" src={require("./images/instagram.svg")}/>
             </a>
           </div>
           <div id="main-menu">
@@ -31,17 +31,18 @@ class App extends Component {
             <h3 className="animated fadeInDown main-title">
                 Kate Dinsmore
             </h3>
-            <img src={require('./images/kate2.png')} className="animated fadeIn photo" />
+            <img alt={"kate album cover"} src={require('./images/albumrelease.jpg')} className="animated fadeIn photo" />
         </div>
       </section>
 
-      <section className="parallax-scrolling" id="tour">
-        <h2 id="tour-title">Shows</h2>
+      {/*<section className="parallax-scrolling" id="tour">*/}
+        {/*<h2 id="tour-title">Shows</h2>*/}
 
-      </section>
+      {/*</section>*/}
 
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
+        {/*<img src={require('./images/albumgibson.jpg')} className="animated fadeIn bio-photo" />*/}
         <p className="bio-text">Mentally projecting from Seattle, Washington, Kate Dinsmore delivers a scorching
                             combination of thrash metal and acapella roots jazz blended with the sublime
                             musical sensibilites of early 1920's New Orleans zydeco.  Versed
@@ -73,18 +74,22 @@ class App extends Component {
             <a className="contact-links" href="mailto:katedinsmoremusic@gmail.com"> katedinsmoremusic@gmail.com</a>
           </p>
           <div id="social-icon-container">'
+            <span className="social-icon-row">
             <a className="contact-links" href="https://www.facebook.com/katedinsmoremusic/">
-              <img className="social-icon" src={require("./images/facebook.svg")}/>
+              <img alt={"facebook"} className="social-icon" src={require("./images/facebookwhite.svg")}/>
             </a>
             <a className="contact-links" href="https://twitter.com/horseysurprise">
-              <img className="social-icon" src={require("./images/twitter.svg")}/>
+              <img alt={"twitter"} className="social-icon" src={require("./images/twitterwhite.svg")}/>
             </a>
+            </span>
+            <span className="social-icon-row">
             <a className="contact-links" href="https://www.instagram.com/katedinsmoremusic/">
-              <img className="social-icon" src={require("./images/instagram.svg")}/>
+              <img alt={"instagram"} className="social-icon" src={require("./images/instagramwhite.svg")}/>
             </a>
             <a className="contact-links" href="mailto:katedinsmoremusic@gmail.com">
-              <img className="social-icon" src={require("./images/mail.svg")}/>
+              <img alt={"email"} className="social-icon" src={require("./images/mailwhite.svg")}/>
             </a>
+            </span>
           </div>
       </section>
     </div>

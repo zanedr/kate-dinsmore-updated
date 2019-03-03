@@ -4,16 +4,18 @@ body {
 }
 
 body {
-  background-color: #0c0c0c;
+  /*background-color: #eeeeee;*/
+  background-color: #efefef;
   /*background-color: #000000;*/
   font-family: 'Raleway', sans-serif;
 }
 
 #header {
-  background-color: #0c0c0c;
+  background-color: #efefef;
+  /*background-color: #0c0c0c;*/
   height: 100vh;
   z-index: -5;
-  border-bottom: 1px white solid;
+  border-bottom: 1px #0c0c0c solid;
 }
 
 /* #main-title {
@@ -38,21 +40,24 @@ body {
 
 .main-title {
   position: absolute;
+  color: #0c0c0c;
   top: 40vh;
-  left: 20vw;
+  left: 25vw;
   font-size: 36px;
   font-weight: 200;
-  color: white;
+  z-index: 10;
 }
 
 .photo {
   position: absolute;
-  right: 30%;
+  right: 0;
   bottom: 0;
+  height: 100vh;
 }
 
 #main-menu {
-  background: #0c0c0c;
+  /*background: #0c0c0c;*/
+  background: #efefef;
   display: flex;
   height: 50px;
   justify-content: center;
@@ -65,7 +70,7 @@ body {
 }
 
 .menu-links {
-  color: #FFFFFF;
+  color: #0c0c0c;
   /*font-family: franklin-gothic-urw, sans-serif;*/
   /*font-size: 12px;*/
   font-weight: 400px;
@@ -76,7 +81,7 @@ body {
 }
 
 .menu-links:hover {
-  color: #AAAAAA;
+  color: #777;
   transition-duration: 0.25s;
 }
 
@@ -85,10 +90,10 @@ body {
 }
 
 h2 {
-  color: #FFFFFF;
+  color: #0c0c0c;
   margin: 0;
   padding: 50px 0 50px;
-  background-color: #0c0c0c;
+  background-color: #efefef;
   font-weight: 200;
   font-size: 36px;
   text-align: center;
@@ -107,13 +112,20 @@ h2 {
 }
 
 #bio {
-    background-image: url("images/katekatekate.jpg");
-    height: 850px;
-    margin: 0 auto;
+  /*background-image: url("images/albuminsert.jpg");*/
+  height: 850px;
+  margin: 0 auto;
+}
+
+.bio-photo {
+  position: absolute;
+  /*right: 0;*/
+  /*bottom: 0;*/
+  height: 100vh;
 }
 
 .bio-text {
-  color: #FFFFFF;
+  color: #0c0c0c;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 200;
   line-height: 1.75;
@@ -123,7 +135,7 @@ h2 {
 }
 
 #lets-rage {
-  color: #FFFFFF;
+  color: #0c0c0c;
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   font-weight: 200;
@@ -141,10 +153,11 @@ h2 {
 }*/
 
 #music {
-  background-image: url("images/kielflask.jpg");
+  background-image: url("images/albuminsert.jpg");
   height: 850px;
   margin: 0;
   text-align: center;
+  border-top: 1px #0c0c0c solid;
 }
 
 #music-spacer {
@@ -167,7 +180,7 @@ h2 {
 }
 
 .music-links {
-  color: #FFFFFF;
+  color: #0c0c0c;
   font-family: 'Titillium Web', sans-serif;
   font-size: 26px;
   margin-top: 20px;
@@ -175,20 +188,21 @@ h2 {
 }
 
 #contact {
-  background-color: #FFFFFF;
+  background-color: #0c0c0c;
   padding: 100px 0 100px;
   text-align: center;
   width: 100%;
 }
 
 #contact-title {
-  color: #0c0c0c;
-  background-color: #FFFFFF;
+  color: #efefef;
+  background-color: #0c0c0c;
   padding-top: 0;
   padding-bottom: 20px;
 }
 
 .contact-text {
+  color: #efefef;
   padding: 0 0 0 6%;
   font-size: 20px;
   font-weight: 200;
@@ -198,7 +212,7 @@ h2 {
 
 .contact-links {
   font-weight: 400;
-  color: #333333;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -279,7 +293,7 @@ h2 {
 
   .menu-social-icon {
     margin: 0 5px;
-    height: 15px;
+    height: 20px;
     transition-duration: 0.25s;
     z-index: 12;
   }
@@ -351,8 +365,42 @@ h2 {
   }
 } */
 
-@media screen and (max-width: 600px) { 
-  .main-title {
-    top: 20vh;
+/*@media screen and (max-width: 800px) {*/
+  /*.main-title {*/
+    /*bottom: 20vh;*/
+    /*color: #efefef;*/
+  /*}*/
+/*}*/
+
+@media screen and (max-width: 400px) {
+  .menu-links {
+    font-size: 13px;
+  }
+
+  .social-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .social-icon {
+    height: 40px;
+  }
+
+  #bio {
+    height: 1000px;
+  }
+
+  .bio-text {
+    padding-top: 30px;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .main-title {
+    bottom: 20vh;
+    left: 60vw;
+    color: #efefef;
+  }
+}
+
