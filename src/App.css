@@ -104,7 +104,7 @@ h2 {
 }
 
 #tour {
-  background-image: url("images/kieldrum.jpg");
+  /*background-image: url("images/kieldrum.jpg");*/
   height: 850px;
   margin: 0;
 }
@@ -115,7 +115,7 @@ h2 {
 
 #bio {
   /*background-image: url("images/albuminsert.jpg");*/
-  height: 850px;
+  height: 950px;
   margin: 0 auto;
 }
 

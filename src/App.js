@@ -43,18 +43,21 @@ class App extends Component {
       <section className="parallax-scrolling" id="bio">
         <h2 id="bio-title">Bio</h2>
         {/*<img src={require('./images/albumgibson.jpg')} className="animated fadeIn bio-photo" />*/}
-        <p className="bio-text">Mentally projecting from Seattle, Washington, Kate Dinsmore delivers a scorching
-                            combination of thrash metal and acapella roots jazz blended with the sublime
-                            musical sensibilites of early 1920's New Orleans zydeco.  Versed
-                            on multiple instruments including guitar, jawharp, and Chevy Malibu, Kate makes every
-                            show a painstaking endeavor of the heart, a fact that shines through the
-                            music, public nudity, and multiple lawsuits. With new songs, new mugshots, 
-                            and a new concept album inspired by the Shawshank Redemption and its sequel,
-                            Bad Boys II, 2018 is looking to be a big year for Kate. Check the tour page 
-                            for dates in your area, and don't miss the only
-                            artist who can shatter your pelvis with only her voice and two shots of
-                            Jameson.</p>
-        <p id="lets-rage">It's jazz.</p>
+        <p className="bio-text">Whether she’s kicking your ass skiing, unicycling through her hometown of Olympia, WA, or messing around with
+          new melodies and song lyrics on her guitar, Kate Dinsmore is always full of eye- and ear-catching surprises. But if
+          one thing is for sure, it’s that music is her thing, day in and day out.</p>
+
+        <p className="bio-text">Kate was a choir and musical theatre lover (read: nerd) from grade school through her college years at the
+          University of Oklahoma, where she belted out her fair share of showtunes and did a little tap dancing, too. From
+          there, she spent some time crooning on cruise ships and a few more years as the lead vocalist of Harumph, a
+          Norman-based Americana band. After the trio parted ways in 2017, Kate made her way back to the PNW to her
+          Seattle-area home, where she’s now calling the shots in a budding solo career of her own.</p>
+
+        <p className="bio-text">In 2018, Kate gave her songwriting skills an impressive test-drive, writing five out of six new songs for her first solo
+          EP, Your Last Name. The upcoming album, which is a unique concoction of funk, jazz and Americana, will drop on
+          April 3, 2019. Catch her at the official album release show on the same date at the Tractor Tavern in Ballard,
+          Seattle.</p>
+        {/*<p id="lets-rage">It's jazz.</p>*/}
       </section>
 
       <section className="parallax-scrolling" id="music">
